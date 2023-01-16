@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    background-color:#333;
+    color: white;
+    text-align: center;
+    font-size:large;
+    padding: 15px;
+}
+body{
+    font-family: arial, Tahoma;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.clearfix{
+    clear: both;
+}
+
+main{
+    background-color: #eee;
+    padding: 20px;
+}
+main p mark {
+    background-color: #00f;
+    color: white;
+
+}
+
+.post{
+    width: 72%;
+    float: left;
+}
+.post article{
+    padding: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 20px;
+    
+}
+.post article header{
+    
+    background-color: #e2e2e2;
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+.post article section{
+    padding: 10px;
+}
+
+main p{
+    text-align: center;
+}
+main p span {
+    font-weight: bold;
+    color: #888;
+}
+
+nav{
+    background-color: #ddd;
+}
+nav ul{
+    padding: 20px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+
+.post h2{
+    background-color: #e2e2e2;
+    padding: 10px;
+
+}
+.post article section{
+    padding: 10px;
+}
+.post article section details{
+    margin: 10px 0px;
+}
+.post article section .long-link{
+    width: 200px;
+}
+.post article section code{
+    background-color: #fff;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    max-width: 320px;
+}
+.post article section .img-figure{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    width: 880px;
+    text-align: center;
+}
+.post article section .img-figure img{
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+.post article section .html5 input{
+    display:block;
+    margin-bottom: 10px;
+}
+
+
+aside{
+    float: right;
+    width: 28%;
+}
+footer{
+    background-color: #333;
+    color: #ddd;
+    text-align:center;
+    padding: 20px;
+}
+
+aside section{
+    background-color: #eee;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+aside section h3{
+    background-color: #D1D1D1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+aside section ul li{
+    line-height: 1.6;
+}

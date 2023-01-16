@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="file.css"/>
+        <script src="file.js"></script>
+    </head>
+    <body>
+        <header class="main">
+            <h1> HTML5 Course</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacy</li>
+            </ul>
+        </nav>
+        <main>
+            <p><mark>Hallo</mark>  My <span>Visitor</span></p>
+        </main>
+
+        <div class="post">
+            <article>
+                <header>
+                    <h3>Our New Freamwork Milestone</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                <p>This is article content nubmer 2 </p>
+                <div>
+                    Desugin:<progress value="7" max="10"></progress><br>
+                    coding :<progress value="6.5" max="10"></progress>
+                </div>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3> Article 2 &lt;details&gt;</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                    <p>This is article content nubmer 2</p>
+                    <p>
+                        <details>
+                            <summary>References</summary>
+                            <ul>
+                                <li>Ref 1</li>
+                                <li>Ref 1</li>
+                                <li>Ref 1</li>
+                            </ul>
+                        </details>
+                    </p>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3> Article About Using &lt;wbr&gt;</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On <time datetime="2022-11-25 22:45:20">Nov, 25, 2022</time></p>
+                </header>
+                <section>
+                <p>This is article content nubmer 3</p>
+                <div class="long-link">
+                    http://www.kdhdjkhdjhdj.com<wbr>&vfsjkhh&knnbkj&ddddddd</wbr>&gggggggggg&jjjjjjj
+                </div>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3>  Article About Using code Inside&lt;figure&gt; </h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                <p>This Code Describe The Div Syntax</p>
+                <figure>
+                    <figcaption>This Div Syntax 1-3 </figcaption>
+                </figure>
+                <code>
+                    &lt;div&gt;This Is Normal Syntax For Div&lt;/div&gt;
+                </code>
+                </section>
+            </article>
+
+            <article>
+                <header>
+                    <h3>This About Using Image inside &lt;figure&gt;</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                <p>This Code Describe the Image inside figure </p>
+                <figure class="img-figure">
+                    <img src="deboo3.png" alt="deboo" title="my logo"/>
+                    <img src="deboo3.png" alt="deboo" title="my logo"/>
+                    <img src="deboo3.png" alt="deboo" title="my logo"/>
+                    <figcaption>Three Images Contain logo see the full list <a href="#">Here </a></figcaption>
+                </figure>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>This About Using &lt;Video&gt;</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                    <p>This is Html Video</p>
+                    <video controls width="320" height="300" poster="deboo6.png">
+                        <source src="001.mp4" type="video/mp4">
+                        <source src="001.ogg" type="video/ogg">
+                        <source src="001.webm" type="video/webm">
+                    </video>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Aeticle about using new from input field</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                <form class="html5">
+                    <label>Color</label>
+                    <input type="color" name="thems" value="">
+                    <label>Range</label>
+                    <input type="range" name="choose" min="0" max="100" step="25" value="1">
+                    <label>Number</label>
+                    <input type="number" min="0" max="30" step="10">
+                    <label>Email</label>
+                    <input type="email" name="email" autocomplete="off">
+                    <label>Search</label>
+                    <input type="search" name="search" autocomplete="off">
+                    <label>Url</label>
+                    <input type="url" name="link">
+                    <label>telephone</label>
+                    <input type="telephone" name="telephone">
+                    <label>Time</label>
+                    <input type="time" name="timing">
+                    <label>Datetime</label>
+                    <input type="datetime-local" name="datetime">
+                    <label>Date</label>
+                    <input type="date" name="date">
+                    <label>Month</label>
+                    <input type="month" name="manth">
+                    <label>Week</label>
+                    <input type="week" name="week">
+                    <input type="submit" value="send">
+                </form>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Aeticle about using new from Attributes</h3>
+                    <p>Creat By <span>Mohamed Diab </span> On 25/11/2022</p>
+                </header>
+                <section>
+                    <p>new from Attributes</p>
+                    <form id="main-form" class="html5" action="process.php" method="get" enctype="multipart/form-data"  >
+                        <label>Name</label>
+                        <input type="text" name="username" autofocus="on">
+                        <label>Email</label>
+                        <input type="email" name="mail" autocomplete="off" multiple>
+                        <input type="submit" value="Default Submit">
+                        <input type="submit" formaction="other.php" formmethod="post" value="other submit">
+                        <input type="submit" formnovalidate value="submit without validation">
+                        <input type="submit" formnovalidate formtarget="-blank" value="submit in new window">
+                    </form> 
+                    <label>Nickname</label>
+                    <input type="text" name="nickname" form="main-form">
+                </section>
+            </article>
+        </div>
+        
+        <aside>
+            <section class="links">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Intro </li>
+                    <li>Semantiks</li>
+                    <li>Api</li>
+                    <li>New Attributes</li>
+                    <li>Multimedia Elements</li>
+                </ul>
+            </section>
+            <section class="meters">
+                <h3>Performance</h3>
+                <div>
+                    Cpu : <meter
+                                min     = "0" 
+                                max     = "1" 
+                                value   = ".5" 
+                                low     = ".4" 
+                                high    = ".8" 
+                                optimum = ".5"> </meter>
+                </div>
+            </section>
+            <section class="Top-Members">
+                <h3>Top Members</h3>
+                <ul>
+                    <li>mohamed : 250 point</li>
+                    <li>hamdy   : 220 point</li>
+                    <li>nada    : 210 point</li>
+                    <li><bdi>احمد</bdi>:600point</li>
+                </ul>
+            </section>
+            <section class="poll">
+                <h3>What Your Best Browser?</h3>
+                <form>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="chrome">
+                        <option value="firefox">
+                        <option value="safari">
+                        <option value="opera">
+                        <option value="internet explorer">
+                    </datalist>
+                    <input type="submit" value="choose">
+                </form>
+            </section>
+            <section class="calculate-age">
+                <h3>calculate your age in days</h3>
+                <form oninput="result.value = parseInt(age.value) *parseInt(days.value) +' Days'">
+                    <input type="text" name="age">
+                    <input type="hidden" name="days" value="365">
+                    <output name="result"></output>
+                </form>
+            </section>
+            <section>
+                <h3>Today's Audio</h3>
+                <audio controls >
+                    <source src="001.mp3" type="audio/mpeg">
+                    <source src="001.ogg" type="audio/ogg">
+                    Yiur Browser Does Not Support Audio Technology
+                </audio>
+            </section>
+        </aside>
+
+        <div class="clearfix"></div>
+
+    <footer>
+        Copyright2022 Mohamed Diab &copy; All Right Reserved
+    </footer>
+
+    </body>
+</html>

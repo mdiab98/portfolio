@@ -1,0 +1,49 @@
+body {
+background:#607d8b;
+font-family:Arial, Tahoma;
+}
+
+fieldset{
+    background: #455a64;
+    color: rgba(255, 255, 255, 0.781);
+    border:2px solid white;
+    padding:20px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+legend {
+    background: #000016;
+    border: 1px solid#CCC;
+    padding: 10px;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+input{
+    margin-bottom: 10px;}
+
+input
+[type="text"]
+
+input
+[type="password"]
+
+textarea{
+    padding: 8px;
+    width: 400px;
+    display: block;
+}
+
+hr {
+    border: 1px solid #EEE;
+}
+
+.textarea
+{
+    height: 100px;
+    margin-bottom: 30px;
+}
